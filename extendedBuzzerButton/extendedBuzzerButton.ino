@@ -1,6 +1,7 @@
 #define PIN_BUZZER 13
-#define PIN_BUTTON 4
+#define PIN_BUTTON 15
 #define CHN 0 //define the pwm channel
+
 void setup() {
   pinMode(PIN_BUTTON, INPUT);
   pinMode(PIN_BUZZER, OUTPUT);
@@ -16,6 +17,7 @@ void loop() {
     ledcWriteTone(CHN, 0);
   }
 }
+
 void alert() {
   float sinVal; // Define a variable to save sine value
   int toneVal; // Define a variable to save sound frequency
