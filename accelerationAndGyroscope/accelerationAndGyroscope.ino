@@ -6,6 +6,8 @@
 
 MPU6050 mpu6050(Wire);
 
+
+
 int16_t ax,ay,az;
 int16_t gx,gy,gz;
 long timer = 0;
