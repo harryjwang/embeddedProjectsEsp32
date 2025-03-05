@@ -15,6 +15,9 @@ void setup() {
   }
 }
 
+
+
+
 void loop() {
   for (int i = 0; i < 4; i++){
     singleDisplay(i);
