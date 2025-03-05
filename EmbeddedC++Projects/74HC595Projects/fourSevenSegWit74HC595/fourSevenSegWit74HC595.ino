@@ -10,6 +10,10 @@ void setup() {
   pinMode(data_pin, OUTPUT);
   pinMode(clock_pin, OUTPUT);
 
+
+
+
+  
   for(int i = 0; i < 4; i++){
     pinMode(common_pins[i], OUTPUT);
   }
